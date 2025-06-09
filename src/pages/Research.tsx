@@ -31,18 +31,18 @@ const researchPapers: ResearchPaper[] = [
       // doi: "https://doi.org/10.1234/example.5678"
     }
   },
-  // {
-  //   title: "Title of Your Second Research Paper",
-  //   authors: ["Your Name", "Co-Author Three"],
-  //   venue: "Another Journal or Conference Name",
-  //   year: 2022,
-  //   abstract: "Abstract of your second research paper. Summarize the main contributions and implications of your research.",
-  //   tags: ["Natural Language Processing", "Transformer Models"],
-  //   links: {
-  //     pdf: "https://example.com/research-paper-2.pdf",
-  //     doi: "https://doi.org/10.1234/example.9012"
-  //   }
-  // },
+  {
+    title: "Exponential Dynamic Energy Network for High Capacity Sequence Memory",
+    authors: ["Arjun Karuvally", "Pichsinee Lertsaroj", "Terrence Sejnowski", "Hava T Siegelmann"],
+    venue: "(Under Review) NeurIPS 2025",
+    year: 2025,
+    abstract: "The energy paradigm, exemplified by Hopfield networks, offers a principled framework for memory in neural systems by interpreting dynamics as descent on an energy surface. While powerful for static associative memories, it falls short in modeling sequential memory, where transitions between memories are essential. We introduce the Exponential Dynamic Energy Network (EDEN), a novel architecture that extends the energy paradigm to temporal domains by evolving the energy function over multiple timescales. EDEN combines a static high-capacity energy network with a slow, asymmetrically interacting modulatory population, enabling robust and controlled memory transitions. We formally derive short-timescale energy functions that govern local dynamics and use them to analytically compute memory escape times, revealing a phase transition between static and dynamic regimes. The analysis of capacity for EDEN shows that it achieves exponential sequence memory capacity O(γ^2), outperforming the linear capacity of conventional models. Furthermore, EDEN \'s dynamics resemble the activity of time and ramping cells observed in human episodic memory, grounding its biological relevance. By unifying static and sequential memory within a dynamic energy framework, EDEN offers a scalable and interpretable model for high-capacity temporal memory in both artificial and biological systems.",
+    tags: ["Memory Models", "Hopfield Networks", "Energy Networks", "Foundational Machine Learning"],
+    links: {
+    //   pdf: "https://example.com/research-paper-2.pdf",
+    //   doi: "https://doi.org/10.1234/example.9012"
+    }
+  },
   // {
   //   title: "Title of Your Third Research Paper",
   //   authors: ["Co-Author Four", "Your Name", "Co-Author Five"],
