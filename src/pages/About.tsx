@@ -42,17 +42,17 @@ export default function About() {
               <Card>
                 <CardContent className="p-6">
                   <p className="text-lg leading-relaxed mb-6">
-                    Hello, I'm Mimi! I'm a senior Computer Science major with minors in Psychology and Maths. I'm a software engineer
-                    and researcher who specialises in multidisciplinary artificial intelligence. I'm particularly passionate about 
+                    Hello, I'm Mimi! I've just graduated from UMass Amherst as a Computer Science major with minors in Psychology and Maths.
+                     I'm a software engineer and researcher who specialises in foundational artificial intelligence. I'm particularly passionate about interpretable
                     biologically-inspired/biologically-plausible foundational machine learning models and developing brain-inspired 
-                    intelligent systems. 
+                    intelligent systems for robotics. 
                   </p>
                   <p className="text-lg leading-relaxed mb-6">
                     I have research experience in many different concentrations of AI/ML, including developing foundational artificial neural networks
                     for memory modelling, deep reinforcement learning for vision-based robotics control systems, and multi-objective optimisation for decision-making problems.
                   </p>
                   <p className="text-lg leading-relaxed">
-                    Outside of academics, I love fashion, art, and any colourful shape-related games (tetris, set, minecraft, etc).
+                    Outside of computers, I love fashion, art, and any colourful shape-related games (tetris, set, minecraft, etc). 
                   </p>
                 </CardContent>
               </Card>
@@ -90,17 +90,31 @@ export default function About() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="text-xl font-medium">Research Assistant</h3>
-                <p className="text-muted-foreground mb-2">UMass Computer Vision Lab + DARoS Lab • 2024 - Present</p>
+                <p className="text-muted-foreground mb-2">Biologically Inspired Neural and Dynamical Systems (BINDS) Lab • 2023 - Present</p>
+                <p>Developing interpretable dynamic exponential cognitive memory models with biological plausible Hopfield Network designs.</p>
+              </CardContent>
+            </Card>
+            <Card>
+              <CardContent className="p-6">
+                <h3 className="text-xl font-medium">Research Assistant</h3>
+                <p className="text-muted-foreground mb-2">UMass Computer Vision Lab + DARoS Lab • 2024 - 2025</p>
                 <p>Studying learned vision-based control strategies for balance and complex terrain navigation of robots.</p>
               </CardContent>
             </Card>
-            {/* <Card>
+            <Card>
               <CardContent className="p-6">
-                <h3 className="text-xl font-medium">Previous Position</h3>
-                <p className="text-muted-foreground mb-2">Previous Company • 2018 - 2020</p>
-                <p>Description of your responsibilities and achievements.</p>
+                <h3 className="text-xl font-medium">Research Assistant</h3>
+                <p className="text-muted-foreground mb-2">Sustainability, Optimization, Learning, and Algorithms Research Lab • 2024 - 2025</p>
+                <p>Develop better solar panel placement strategies in the US using complex multi-objective decision-making algorithms.</p>
               </CardContent>
-            </Card> */}
+            </Card>
+            <Card>
+              <CardContent className="p-6">
+                <h3 className="text-xl font-medium">Software Engineer Intern</h3>
+                <p className="text-muted-foreground mb-2"> Spacely AI• 2024</p>
+                <p>Created an object recognition system with YOLOv9 for furniture detection in floor plans.</p>
+              </CardContent>
+            </Card>
           </div>
           
           <h2 className="text-2xl font-bold mb-6">Education</h2>
@@ -109,7 +123,7 @@ export default function About() {
               <h3 className="text-xl font-medium">Bachelor of Science in Computer Science, Minors in Psychology and Mathematics</h3>
               <p className="text-muted-foreground mb-2">University of Massachusetts Amherst • 2025</p>
               <p>Member of the Commonwealth Honors College</p>
-              <p>Dean's List for F2021, S2022, F2023, S2024, F2024, S2025</p>
+              <p>Dean's List for F2021, S2022, F2022, F2023, S2024, F2024, S2025</p>
               <p>Chancellor's Award Recipient, Commonwealth Honors College Honors Thesis Grant Recipient</p>
               <p>President of the UMass Art Club</p>
               <p>Commonwealth Honors College Peer Ambassador and Social Media Coordinator</p>
