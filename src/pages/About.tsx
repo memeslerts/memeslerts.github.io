@@ -95,7 +95,7 @@ export default function About() {
             <Card>
               <CardContent className="p-6">
                 <h3 className="text-xl font-medium">Artificial Intelligence + Data Science Intern</h3>
-                <p className="text-muted-foreground mb-2">Biologically Inspired Neural and Dynamical Systems (BINDS) Lab • 2025 - Present</p>
+                <p className="text-muted-foreground mb-2">BPPUS • 2025 - Present</p>
                 <p>Developing multi-agent RAG system for an LLM power analyst assistant who can perform complex analysis, summarisation, data retrieval, and visualisation on the local energy market.</p>
               </CardContent>
             </Card>
