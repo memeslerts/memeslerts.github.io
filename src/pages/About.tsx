@@ -46,7 +46,7 @@ export default function About() {
                   <p className="text-lg leading-relaxed mb-6">
                     Hi, I'm Mimi (Pichsinee Lertsaroj)! I've just graduated from UMass Amherst as a Computer Science major with minors in Psychology and Maths.
                     I'm currently an AI and Data Science intern at BPPUS and researcher at BINDS who specialises in foundational artificial intelligence and deep learning. 
-                    I'm particularly passionate about interpretable
+                    I'm passionate about interpretable
                     biologically-inspired/biologically-plausible foundational machine learning models and developing brain-inspired 
                     intelligent systems for robotics. I love solving complex problems and pushing the boundaries of what we can achieve with AI.
                   </p>
