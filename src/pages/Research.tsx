@@ -20,7 +20,7 @@ interface ResearchPaper {
 
 const researchPapers: ResearchPaper[] = [
   {
-    title: "A More Sustainable, Energy-Efficient, and Equitable strategy for Rooftop Solar Photovoltaics",
+    title: "Learning to Site: A Multi-objective Optimization of Rooftop Solar Installations using Evolutionary Neural Networks",
     authors: ["Cooper Sigrist", "Archimedes Li", "Pichsinee Lertsaroj", "Ryan Bahlous-Boldi"," Adam Lechowicz", "Noman Bashir", "Mohammad Hajiesmaili"],
     venue: "ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation (BuildSys)",
     year: 2025,

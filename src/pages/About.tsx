@@ -44,7 +44,7 @@ export default function About() {
               <Card>
                 <CardContent className="p-6">
                   <p className="text-lg leading-relaxed mb-6">
-                    Hello, I'm Mimi Lertsaroj! I've just graduated from UMass Amherst as a Computer Science major with minors in Psychology and Maths.
+                    Hi, I'm Mimi (Pichsinee) Lertsaroj! I've just graduated from UMass Amherst as a Computer Science major with minors in Psychology and Maths.
                     I'm currently an AI and Data Science intern at BPPUS and researcher at BINDS who specialises in foundational artificial intelligence and deep learning. 
                     I'm particularly passionate about interpretable
                     biologically-inspired/biologically-plausible foundational machine learning models and developing brain-inspired 
