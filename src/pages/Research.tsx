@@ -13,7 +13,7 @@ interface ResearchPaper {
   abstract: string;
   tags: string[];
   links: {
-    pdf?: string;
+    link?: string;
     doi?: string;
   };
 }
@@ -24,7 +24,14 @@ const researchPapers: ResearchPaper[] = [
     authors: ["Cooper Sigrist", "Archimedes Li", "Pichsinee Lertsaroj", "Ryan Bahlous-Boldi"," Adam Lechowicz", "Noman Bashir", "Mohammad Hajiesmaili"],
     venue: "ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation (BuildSys)",
     year: 2025,
-    abstract: "Due to declining costs and increasing government incentives, residential rooftop photovoltaic (PV) installations are commonplace in electric grids worldwide. However, despite their potential for deployment on most homes, residential PV installations in the United States are heavily clustered in high-income neighborhoods. In addition to being a widely acknowledged social issue, recent work has shown that these existing installations are highly \emph{carbon-inefficient} -- that is, they are not optimally situated to effectively offset carbon emissions from traditional fossil fuel-based generators used in the electric grid. Prior work also shows that prioritizing simple metrics such as socioeconomic equity can significantly increase the carbon-efficiency of new installations. \nIn this paper, we formalize the problem of site selection for rooftop PV installations as a multi-objective optimization problem, where the objectives include metrics of interest such as energy generation, carbon offsetting, and equity along demographic lines. In doing so, we introduce two models, NEAT-Lexicase and NEAT-Tournament, which each use a neural network trained via evolutionary learning with either lexicase or tournament selection. We evaluate our models in a case study of the site selection problem using a data set of U.S. solar generation and demographic information, where they improve carbon-efficiency by 62\%, income equity by 41\%, and racial equity by 24\% while maintaining energy generation comparable to a status-quo projection. According to current projections, this optimized placement achieves the estimated carbon offset needed for \textit{net-zero} emissions (due to energy generation) by 2034, four years earlier than current trends, while also substantially improving both racial and income equity. ",
+    abstract: "Due to declining costs and increasing government incentives, residential rooftop photovoltaic (PV) installations are commonplace in electric grids worldwide.\
+     However, despite their potential for deployment on most homes, residential PV installations in the United States are heavily clustered in high-income neighborhoods. In addition to being a widely acknowledged social issue, recent work has shown that these existing installations are highly \
+     carbon-inefficient -- that is, they are not optimally situated to effectively offset carbon emissions from traditional fossil fuel-based generators \
+     used in the electric grid. Prior work also shows that prioritizing simple metrics such as socioeconomic equity can significantly increase the carbon-efficiency of new installations. \
+     \nIn this paper, we formalize the problem of site selection for rooftop PV installations as a multi-objective optimization problem, where the objectives include metrics of interest such as energy generation, carbon offsetting, and equity along demographic lines. \
+     In doing so, we introduce two models, NEAT-Lexicase and NEAT-Tournament, which each use a neural network trained via evolutionary learning with either lexicase or tournament selection. \
+     We evaluate our models in a case study of the site selection problem using a data set of U.S. solar generation and demographic information, where they improve carbon-efficiency by 62\%, income equity by 41\%, and racial equity by 24\% while \
+     maintaining energy generation comparable to a status-quo projection. According to current projections, this optimized placement achieves the estimated carbon offset needed for net-zero emissions (due to energy generation) by 2034, four years earlier than current trends, while also substantially improving both racial and income equity. ",
     tags: ["Machine Learning", "Multi-Objective Optimisation", "Evolutionary Learning"],
     links: {
       // pdf: "https://example.com/research-paper-1.pdf",
@@ -39,7 +46,7 @@ const researchPapers: ResearchPaper[] = [
     abstract: "The energy paradigm, exemplified by Hopfield networks, offers a principled framework for memory in neural systems by interpreting dynamics as descent on an energy surface. While powerful for static associative memories, it falls short in modeling sequential memory, where transitions between memories are essential. We introduce the Exponential Dynamic Energy Network (EDEN), a novel architecture that extends the energy paradigm to temporal domains by evolving the energy function over multiple timescales. EDEN combines a static high-capacity energy network with a slow, asymmetrically interacting modulatory population, enabling robust and controlled memory transitions. We formally derive short-timescale energy functions that govern local dynamics and use them to analytically compute memory escape times, revealing a phase transition between static and dynamic regimes. The analysis of capacity for EDEN shows that it achieves exponential sequence memory capacity O(γ^2), outperforming the linear capacity of conventional models. Furthermore, EDEN \'s dynamics resemble the activity of time and ramping cells observed in human episodic memory, grounding its biological relevance. By unifying static and sequential memory within a dynamic energy framework, EDEN offers a scalable and interpretable model for high-capacity temporal memory in both artificial and biological systems.",
     tags: ["Memory Models", "Hopfield Networks", "Energy Networks", "Foundational Machine Learning"],
     links: {
-      pdf: "https://neurips.cc/virtual/2025/poster/118920",
+      link: "https://neurips.cc/virtual/2025/poster/118920",
     //   doi: "https://doi.org/10.1234/example.9012"
     }
   },
@@ -85,11 +92,11 @@ export default function Research() {
                   </div>
                 </CardContent>
                 <CardFooter className="px-6 pb-6 pt-0 flex gap-2">
-                  {paper.links.pdf && (
+                  {paper.links.link && (
                     <Button variant="outline" size="sm" asChild>
-                      <a href={paper.links.pdf} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1">
+                      <a href={paper.links.link} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1">
                         <FileText className="h-4 w-4" />
-                        PDF
+                        Link
                       </a>
                     </Button>
                   )}
@@ -110,10 +117,9 @@ export default function Research() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <Card>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-2">Exponential Temporal Sequential Hopfield Network</h3>
+                <h3 className="text-xl font-bold mb-2">Continual Learning of Temporal Information with RNN's</h3>
                 <p className="mb-2">
-                  Designing an exponential capacity Hopfield Neural Network with dynamic energy fields that is capable of 
-                  learning sequences and patterns in real time.
+                  Researching continual learning methods for RNN's to learn temporal information over long timescales without catastrophic forgetting.
                 </p>
                 <Badge variant="outline" className="mt-2">In Progress</Badge>
               </CardContent>

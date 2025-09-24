@@ -10,6 +10,8 @@ export default function About() {
       <div className="container mx-auto px-6 py-16">
         <div className="max-w-3xl mx-auto">
           <div className="flex justify-between items-center mb-6">
+            {/* <h1>TEST UPDATE {Date.now()}</h1> */}
+
             <h1 className="text-4xl font-bold">About Me</h1>
             <Button 
               variant="outline" 
@@ -42,14 +44,16 @@ export default function About() {
               <Card>
                 <CardContent className="p-6">
                   <p className="text-lg leading-relaxed mb-6">
-                    Hello, I'm Mimi! I've just graduated from UMass Amherst as a Computer Science major with minors in Psychology and Maths.
-                     I'm a software engineer and researcher who specialises in foundational artificial intelligence. I'm currently an AI and Data Science intern at BPPUS. I'm particularly passionate about interpretable
+                    Hello, I'm Mimi Lertsaroj! I've just graduated from UMass Amherst as a Computer Science major with minors in Psychology and Maths.
+                    I'm currently an AI and Data Science intern at BPPUS and researcher at BINDs who specialises in foundational artificial intelligence and deep learning. 
+                    I'm particularly passionate about interpretable
                     biologically-inspired/biologically-plausible foundational machine learning models and developing brain-inspired 
-                    intelligent systems for robotics. 
+                    intelligent systems for robotics. I love solving complex problems and pushing the boundaries of what we can achieve with AI.
                   </p>
                   <p className="text-lg leading-relaxed mb-6">
                     I have research experience in many different concentrations of AI/ML, including developing foundational artificial neural networks
-                    for memory modelling, deep reinforcement learning for vision-based robotics control systems, and multi-objective optimisation for decision-making problems.
+                    for memory modelling, deep reinforcement learning for vision-based robotics control systems, and multi-objective optimisation for decision-making problems. I'm also doing some cool stuff
+                    with RNN's and spiking neural networks on the side. If you want to learn more about my research please feel free to visit my research page!
                   </p>
                   <p className="text-lg leading-relaxed">
                     Outside of computers, I love fashion, art, and any colourful shape-related games (tetris, set, minecraft, etc). 
@@ -76,7 +80,7 @@ export default function About() {
               <CardContent className="p-6">
                 <h3 className="text-xl font-medium mb-3">Research Interests</h3>
                 <ul className="list-disc pl-5 space-y-2">
-                  <li>Computational Neuroscience</li>
+                  <li>Theoretical Computational Neuroscience</li>
                   <li>Robotics</li>
                   <li>Computer Vision</li>
                   <li>Foundational Machine Learning Model</li>
@@ -89,9 +93,17 @@ export default function About() {
           <div className="space-y-6 mb-12">
             <Card>
               <CardContent className="p-6">
+                <h3 className="text-xl font-medium">Artificial Intelligence + Data Science Intern</h3>
+                <p className="text-muted-foreground mb-2">Biologically Inspired Neural and Dynamical Systems (BINDS) Lab • 2025 - Present</p>
+                <p>Developing multi-agent RAG system for an LLM power analyst assistant who can perform complex analysis, summarisation, data retrieval, and visualisation on the local energy market.</p>
+              </CardContent>
+            </Card>
+            <Card></Card>
+            <Card>
+              <CardContent className="p-6">
                 <h3 className="text-xl font-medium">Research Assistant</h3>
                 <p className="text-muted-foreground mb-2">Biologically Inspired Neural and Dynamical Systems (BINDS) Lab • 2023 - Present</p>
-                <p>Developing interpretable dynamic exponential cognitive memory models with biological plausible Hopfield Network designs.</p>
+                <p>Developing interpretable dynamic exponential cognitive memory models with biological plausible Hopfield Network designs (now published at NeurIPS 2025 :D).</p>
               </CardContent>
             </Card>
             <Card>
@@ -105,7 +117,7 @@ export default function About() {
               <CardContent className="p-6">
                 <h3 className="text-xl font-medium">Research Assistant</h3>
                 <p className="text-muted-foreground mb-2">Sustainability, Optimization, Learning, and Algorithms Research Lab • 2024 - 2025</p>
-                <p>Develop better solar panel placement strategies in the US using complex multi-objective decision-making algorithms.</p>
+                <p>Develop better solar panel placement strategies in the US using complex multi-objective decision-making algorithms (published at ACM BuildSys 2025).</p>
               </CardContent>
             </Card>
             <Card>

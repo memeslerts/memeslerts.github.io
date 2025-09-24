@@ -1,8 +1,6 @@
-# Node modules
-node_modules/
+# # Node modules
+# node_modules/
 
-# Vite / build caches
-node_modules/.cache/
+# # Vite / build caches
+# node_modules/.cache/
 
-# Build output
-dist/
