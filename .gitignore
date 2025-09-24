@@ -1,0 +1,8 @@
+# Node modules
+node_modules/
+
+# Vite / build caches
+node_modules/.cache/
+
+# Build output
+dist/
