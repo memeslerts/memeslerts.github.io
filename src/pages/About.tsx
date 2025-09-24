@@ -52,7 +52,8 @@ export default function About() {
                   </p>
                   <p className="text-lg leading-relaxed mb-6">
                     I have research experience in many different concentrations of AI/ML, including developing foundational artificial neural networks
-                    for memory modelling, deep reinforcement learning for vision-based robotics control systems, and multi-objective optimisation for decision-making problems. I'm also doing some cool stuff
+                    for memory modelling, deep reinforcement learning for vision-based robotics control systems, and multi-objective optimisation for decision-making problems. Though my technical field of interest
+                    is in theoretical computational neuroscience, I pretty work on whatever I find interesting. I'm also doing some cool stuff
                     with RNN's and spiking neural networks on the side. If you want to learn more about my research please feel free to visit my research page!
                   </p>
                   <p className="text-lg leading-relaxed">
