@@ -43,7 +43,7 @@ export default function About() {
                 <CardContent className="p-6">
                   <p className="text-lg leading-relaxed mb-6">
                     Hello, I'm Mimi! I've just graduated from UMass Amherst as a Computer Science major with minors in Psychology and Maths.
-                     I'm a software engineer and researcher who specialises in foundational artificial intelligence. I'm particularly passionate about interpretable
+                     I'm a software engineer and researcher who specialises in foundational artificial intelligence. I'm currently an AI and Data Science intern at BPPUS. I'm particularly passionate about interpretable
                     biologically-inspired/biologically-plausible foundational machine learning models and developing brain-inspired 
                     intelligent systems for robotics. 
                   </p>
